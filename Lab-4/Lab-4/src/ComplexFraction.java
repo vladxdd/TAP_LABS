@@ -21,9 +21,9 @@ public class ComplexFraction implements Complex {
             exit(1);
         }
         for(int i = 0; i < numberint; i++) {
-            System.out.println("Enter first number: ");
+            System.out.println("Enter numerator: ");
             first = sc.nextLine();
-            System.out.println("Enter second number: ");
+            System.out.println("Enter denominator: ");
             second = sc.nextLine();
             firsttodouble = Double.parseDouble(first);
             secondtodouble = Double.parseDouble(second);
